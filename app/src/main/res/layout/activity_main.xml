@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_edittext_default"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/napchai"
+            android:layout_alignEnd="@+id/napchai"
+            android:layout_alignRight="@+id/napchai"
+            android:layout_marginTop="369dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:text="D" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/napchai"
+            android:layout_marginTop="364dp"
+            android:text="C" />
+
+        <TextView
+            android:id="@+id/napchai"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:background="#9af5d2"
+            android:gravity="center"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="In App"
+            android:textColor="#03140e"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/napchai"
+            android:layout_marginTop="67dp"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/napchai"
+            android:layout_alignEnd="@+id/napchai"
+            android:layout_alignRight="@+id/napchai"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:text="B" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignEnd="@+id/radioButton2"
+            android:layout_alignRight="@+id/radioButton2"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="-15dp"
+            android:layout_marginRight="-15dp"
+            app:srcCompat="@drawable/nc" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radioButton3"
+            android:layout_marginBottom="-144dp"
+            android:text="á nắp chai - Bottle cap Challenge là một thử thách mà người thực hiện sẽ phải dùng chân đá vào nắp chai để nắp chai được nới lỏng hơn. Điểm ấn tượng của clip trào lưu này là người đsa sẽ sử dụng tư thế võ thuật Taekwondo với cú đá kết hợp với việc xoay người làm cho nắp chai mở và nới lỏng. Ngoài ra, sau cú đá đó thì không những nắp chai được nới lỏng mà người thực hiện còn đảm bảo rằng chai nước vẫn ở hình dạng ban đầu, không bị rơi xuống, biến dạng." />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton4"
+            android:layout_alignEnd="@+id/radioButton4"
+            android:layout_alignRight="@+id/radioButton4"
+            android:layout_marginTop="-71dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:text="LenKen" />
+    </RelativeLayout>
+</LinearLayout>

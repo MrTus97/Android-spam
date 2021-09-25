@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="14dp"
+        android:text=" Trào lưu đá nắp chai là gì? Bottle cap challenge"
+        android:textColor="@color/black_russian"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="14dp"
+        android:text="Hiện nay, trào lưu đá nắp chai đang thu hút mọi người, nhất là giới trẻ khi mà chỉ sau vài ngày thì hàng nghìn clip, video xuất hiện, tràn ngập khắp mạng xã hội Facebook, Youtube .... Vậy trào lưu đá nắp chai là gì? Bottle cap challenge? Tại sại lại thu hút mọi người tới thế."
+        android:textColor="@color/black_russian"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="14dp"
+        android:text='Hiện nay, trào lưu đá nắp chai (tiếng Anh là Bottle Cap Challenge, còn được biết đến với các tên gọi như thách thức đá nắp chai, thử thách đá nắp chai, #Farakickschallenge, đá bay nắp chai, thử thách nắp chai, thử thách đá nút chai, thử thách xoay người đá bay nắp chai) đang gây sốt cộng đồng mạng trên khắp thế giới. Các clip "thách thức đá nắp chai" được nhiều người thực hiện, trong đó có cả người nổi tiếng trên thế giới cũng như sao Việt hưởng ứng thử thực hiện.'
+        android:textColor="@color/black_russian"
+        android:textSize="16sp" />
+
+</LinearLayout>
